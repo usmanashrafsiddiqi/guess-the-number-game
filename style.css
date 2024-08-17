@@ -1,0 +1,87 @@
+html {
+  font-family: Arial, sans-serif; 
+}
+
+body {
+  width: 90%; 
+  max-width: 750px;
+  min-width: 480px;
+  margin: 0 auto;
+  background-color: #e94e77; 
+}
+/* Container Styling */
+#wrapper {
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%; 
+  max-width: 450px;
+  height: auto; 
+  background-color: #2d2d2d; 
+  color: #f4f4f4; 
+  font-size: 18px; 
+  padding: 20px;
+  border-radius: 12px; 
+}
+
+/* Heading Styles */
+h1 {
+  background-color: #333; 
+  color: #f4f4f4; 
+  padding: 15px;
+  border-radius: 8px; 
+}
+
+/* Paragraph Styles */
+p {
+  font-size: 18px;
+  text-align: center;
+  color: #eaeaea; 
+}
+
+/* Button Styles */
+button, #subt {
+  background-color: #1e1e1e; 
+  color: #ffffff; 
+  border: none; 
+  border-radius: 25px;
+  font-size: 20px; 
+  padding: 15px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, #subt:hover {
+  background-color: #333; 
+}
+
+/* Input Field Styles */
+#guessField {
+  width: 100%; 
+  max-width: 250px; 
+  height: 50px;
+  font-size: 24px; 
+  border: 2px solid #b0b0b0;
+  border-radius: 10px; 
+  padding: 0 10px; 
+  margin: 20px 0; 
+  text-align: center;
+}
+
+/* Text Color */
+.lastResult, .guesses {
+  color: #f4f4f4; 
+}
+
+/* Additional Styles */
+#guess {
+  font-size: 50px;
+  margin-top: 40px; 
+  color: #f4f4f4; 
+}
+
+
+.guesses {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 8px; 
+}
